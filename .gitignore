@@ -1,0 +1,23 @@
+# ===== Gradle 构建 =====
+.gradle/
+.gradlehome/
+build/
+app/build/
+
+# ===== 本机/密钥(勿提交) =====
+local.properties
+*.keystore
+*.jks
+keys/
+*.jks
+
+# ===== 构建产物 =====
+*.apk
+*.aab
+captures/
+
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+.DS_Store
